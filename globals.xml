@@ -1,0 +1,49 @@
+<globals>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
+
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+	</consts>
+
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
+
+	<subjects>
+		<!-- Add <int>, <string>, or <float> subjects here -->
+		<string name="subject_title" value="Sketch" />
+		<string name="subject_description" value="Web design and development, 2018-22" />
+	</subjects>
+
+	<images>
+		<!-- Add <file> or <data> tags here -->
+		<data name="foodnotes_logo" src_path="images/work-foodnotes-logo.png" color_format="rgb565a8" />
+		<data name="fortepan_logo" src_path="images/work-fortepan-logo.png" color_format="rgb565a8" />
+		<data name="mo_logo" src_path="images/work-mo-logo.png" color_format="rgb565a8" />
+		<data name="sketch_logo" src_path="images/work-sketch-logo.png" color_format="rgb565a8" />
+		<data name="ustream_logo" src_path="images/work-ustream-logo.png" color_format="rgb565a8" />
+		<data name="youate_logo" src_path="images/work-youate-logo.png" color_format="rgb565a8" />
+
+		<data name="foodnotes_bg" src_path="images/work-foodnotes-homebg.png" color_format="rgb565" />
+		<data name="fortepan_bg" src_path="images/work-fortepan-homebg.png" color_format="rgb565" />
+		<data name="mo_bg" src_path="images/work-mo-homebg.png" color_format="rgb565" />
+		<data name="sketch_bg" src_path="images/work-sketch-homebg.png" color_format="rgb565" />
+		<data name="ustream_bg" src_path="images/work-ustream-homebg.png" color_format="rgb565" />
+		<data name="youate_bg" src_path="images/work-youate-homebg.png" color_format="rgb565" />
+	</images>
+
+	<fonts>
+		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+		<bin name="MS_Bold_20" src_path="fonts/MonaSans-Bold.ttf" size="20" bpp="4" range="0x20-0x7F" as_file="false" />
+		<bin
+			name="MS_Regular_16"
+			src_path="fonts/MonaSans-Regular.ttf"
+			size="16"
+			bpp="4"
+			range="0x20-0x7F"
+			as_file="false"
+		/>
+	</fonts>
+</globals>

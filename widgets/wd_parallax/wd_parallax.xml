@@ -1,0 +1,38 @@
+<widget>
+	<previews>
+		<preview width="480" height="320" style_bg_color="0x2c416b" />
+	</previews>
+	<styles>
+		<style
+			name="style_main"
+			width="100%"
+			height="100%"
+			bg_opa="0"
+			pad_column="20"
+			layout="flex"
+			flex_track_place="center"
+		/>
+	</styles>
+	<api>
+		<element access="add" name="item">
+			<arg name="icon" type="image" help="Foreground icon" />
+			<arg name="background" type="image" help="Background icon" />
+
+			<prop name="title" type="string" help="Title of the item" />
+			<prop name="description" type="string" help="Description of the item" />
+		</element>
+
+		<prop name="bind_title" type="subject" help="Subject to write back the title of the selected item" />
+		<prop
+			name="bind_description"
+			type="subject"
+			help="Subject to write back the description of the selected item"
+		/>
+	</api>
+	<view scrollbar_mode="off" scroll_snap_x="start">
+		<style name="style_main" />
+
+		<!-- <lv_image width="320" height="100%" src="foodnotes_bg" />
+		<lv_image width="320" height="100%" src="fortepan_bg" /> -->
+	</view>
+</widget>

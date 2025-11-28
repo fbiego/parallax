@@ -1,0 +1,69 @@
+<screen>
+	<styles>
+		<style name="style_main" bg_color="0xffffff" />
+		<style
+			name="style_cont"
+			width="200"
+			height="70"
+			pad_all="5"
+			pad_row="0"
+			radius="0"
+			border_width="0"
+			layout="flex"
+			flex_flow="column"
+			bg_color="0x2dcf6d"
+			text_color="0xffffff"
+			shadow_color="0x000000"
+			shadow_opa="200"
+			shadow_width="20"
+			shadow_spread="1"
+		/>
+	</styles>
+	<view>
+		<style name="style_main" />
+		<wd_parallax width="460" x="20" bind_title="subject_title" bind_description="subject_description">
+			<wd_parallax-item
+				icon="sketch_logo"
+				background="sketch_bg"
+				title="Sketch"
+				description="Web design and development, 2018-22"
+			/>
+			<wd_parallax-item
+				icon="fortepan_logo"
+				background="fortepan_bg"
+				title="Fortepan"
+				description="Web design and development, 2019-21"
+			/>
+			<wd_parallax-item
+				icon="youate_logo"
+				background="youate_bg"
+				title="Ate Food Journal"
+				description="Brand &amp; product design, 2017"
+			/>
+			<wd_parallax-item
+				icon="foodnotes_logo"
+				background="foodnotes_bg"
+				title="Foodnotes"
+				description="Brand &amp; product design, 2016"
+			/>
+			<wd_parallax-item
+				icon="mo_logo"
+				background="mo_bg"
+				title="Slowmographer"
+				description="Brand &amp; product design, 2016"
+			/>
+			<wd_parallax-item
+				icon="ustream_logo"
+				background="ustream_bg"
+				title="Ustream"
+				description="Product design, 2011-16"
+			/>
+		</wd_parallax>
+
+		<lv_obj x="5" y="230" clickable="false">
+			<style name="style_cont" />
+			<lv_label bind_text="subject_title" style_text_font="MS_Bold_20" />
+			<lv_label bind_text="subject_description" width="100%" style_text_font="MS_Regular_16" />
+		</lv_obj>
+	</view>
+</screen>
