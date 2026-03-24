@@ -8,7 +8,7 @@
  *********************/
 
 #include "main_gen.h"
-#include "parallax.h"
+#include "../parallax.h"
 
 /*********************
  *      DEFINES

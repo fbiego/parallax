@@ -19,9 +19,13 @@ extern "C" {
 
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
     #include "lvgl.h"
+    #include "src/core/lv_obj_class_private.h"
 #else
     #include "lvgl/lvgl.h"
+    #include "lvgl/src/core/lv_obj_class_private.h"
 #endif
+
+
 
 /*********************
  *      DEFINES
@@ -97,9 +101,9 @@ void parallax_init_gen(const char * asset_path);
  *   POST INCLUDES
  **********************/
 
-/*Include all the widget and components of this library*/
-#include "widgets/wd_parallax/wd_parallax_gen.h"
+/*Include all the widgets, components and screens of this library*/
 #include "screens/main_gen.h"
+#include "widgets/wd_parallax/wd_parallax_gen.h"
 
 #ifdef __cplusplus
 } /*extern "C"*/

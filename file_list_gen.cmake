@@ -1,23 +1,23 @@
 list(
   APPEND
-  PROJECT_SOURCES
-  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_parallax/wd_parallax.c
-  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_parallax/wd_parallax_xml_parser.c
-  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_parallax/wd_parallax_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/screens/main_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/parallax_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/parallax.c
+  LV_EDITOR_PROJECT_SOURCES
   ${CMAKE_CURRENT_LIST_DIR}/fonts/MS_Bold_20_data.c
   ${CMAKE_CURRENT_LIST_DIR}/fonts/MS_Regular_16_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/foodnotes_logo_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/fortepan_logo_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/mo_logo_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/sketch_logo_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/ustream_logo_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/youate_logo_data.c
   ${CMAKE_CURRENT_LIST_DIR}/images/foodnotes_bg_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/foodnotes_logo_data.c
   ${CMAKE_CURRENT_LIST_DIR}/images/fortepan_bg_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/fortepan_logo_data.c
   ${CMAKE_CURRENT_LIST_DIR}/images/mo_bg_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/mo_logo_data.c
   ${CMAKE_CURRENT_LIST_DIR}/images/sketch_bg_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/sketch_logo_data.c
   ${CMAKE_CURRENT_LIST_DIR}/images/ustream_bg_data.c
-  ${CMAKE_CURRENT_LIST_DIR}/images/youate_bg_data.c)
+  ${CMAKE_CURRENT_LIST_DIR}/images/ustream_logo_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/youate_bg_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/youate_logo_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/parallax_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/parallax.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/main_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_parallax/wd_parallax_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_parallax/wd_parallax_xml_parser.c
+  ${CMAKE_CURRENT_LIST_DIR}/widgets/wd_parallax/wd_parallax.c)

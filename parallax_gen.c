@@ -41,10 +41,6 @@
  *-------------------*/
 
 /*----------------
- * Global styles
- *----------------*/
-
-/*----------------
  * Fonts
  *----------------*/
 
@@ -83,6 +79,10 @@ const void * youate_bg;
 extern const void * youate_bg_data;
 
 /*----------------
+ * Global styles
+ *----------------*/
+
+/*----------------
  * Subjects
  *----------------*/
 
@@ -101,9 +101,6 @@ void parallax_init_gen(const char * asset_path)
 {
     char buf[256];
 
-    /*----------------
-     * Global styles
-     *----------------*/
 
     /*----------------
      * Fonts
@@ -130,6 +127,10 @@ void parallax_init_gen(const char * asset_path)
     sketch_bg = &sketch_bg_data;
     ustream_bg = &ustream_bg_data;
     youate_bg = &youate_bg_data;
+
+    /*----------------
+     * Global styles
+     *----------------*/
 
     /*----------------
      * Subjects

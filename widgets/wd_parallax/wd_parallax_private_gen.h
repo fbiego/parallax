@@ -14,12 +14,20 @@ extern "C" {
  *      INCLUDES
  *********************/
 
-#include "lvgl_private.h"
+#ifdef LV_LVGL_H_INCLUDE_SIMPLE
+    #include "lvgl_private.h"
+#else
+    #include "lvgl/lvgl_private.h"
+#endif
 #include "wd_parallax.h"
 
 /*********************
  *      DEFINES
  *********************/
+
+#ifndef WD_PARALLAX_USER_DATA
+#define WD_PARALLAX_USER_DATA
+#endif
 
 /**********************
  *      TYPEDEFS
@@ -28,6 +36,7 @@ typedef struct {
     lv_obj_t obj;  /* Base widget to extend */
     lv_subject_t * bind_title;
     lv_subject_t * bind_description;
+    WD_PARALLAX_USER_DATA
 } wd_parallax_t;
 
 extern const lv_obj_class_t wd_parallax_class;

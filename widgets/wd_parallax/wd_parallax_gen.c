@@ -8,8 +8,14 @@
  *********************/
 
 #include "wd_parallax_private_gen.h"
-#include "lvgl/src/core/lv_obj_class_private.h"
-#include "parallax.h"
+#ifdef LV_LVGL_H_INCLUDE_SIMPLE
+    #include "lvgl.h"
+    #include "src/core/lv_obj_class_private.h"
+#else
+    #include "lvgl/lvgl.h"
+    #include "lvgl/src/core/lv_obj_class_private.h"
+#endif
+#include "../../parallax.h"
 
 /*********************
  *      DEFINES
